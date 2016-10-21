@@ -23,10 +23,10 @@ class MenusTableSeeder extends Seeder
         DB::table('tbl_menu')->insert(
 
             [
-                'menu_id'=>6,
-                'menu_title' => 'User',
+                'menu_id'=>7,
+                'menu_title' => 'Menu main',
                 'menu_link' => 'http://localhost:8000/admin/user',
-                'menu_parent_id' => 0
+                'menu_parent_id' => 3
             ]);
     }
 }
